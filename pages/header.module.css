@@ -1,0 +1,215 @@
+s.html{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+.topHeaderTitle {
+    padding: 27px 0 26px;
+    font-family: Georgia;
+    font-size: 24px;
+    line-height: 27px;
+    height: 80px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #000000;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.containerFluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.topHeader {
+    border-bottom: 0.5px solid #cccccc;
+}
+
+.topHeader .keena {
+    background: #ffffff;
+}
+
+.colSm6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.dFlex {
+    display: flex !important;
+}
+
+.justifyContentBetween {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+}
+
+.topHeader .verticalLine {
+    margin: 32px 16px;
+    height: 16px;
+    border: 0.5px solid #999999;
+}
+
+
+.topHeader .topHeaderSearch {
+    width: auto;
+    flex: 1;
+    align-self: center;
+    padding: 29px 0px 23px;
+    height: 80px;
+}
+
+.inputSearch .searchInput {
+    background-position: left;
+    padding-left: 24px;
+    border: none;
+    height: 28px;
+    border-radius: 0px;
+    border-bottom: 1px solid #000000;
+}
+
+.inputSearch .searchInput .iconSearch {
+    background-color: transparent;
+    background-size: 24px;
+    padding: 0 0 0 24px;
+}
+
+.inputSearchDropdown {
+    position: relative;
+}
+
+.searchInput{
+   
+    background-position: left;
+    padding-left: 24px;
+    border: none;
+    height: 28px;
+    border-radius: 0px;
+    border-bottom: 1px solid var(--c-black);
+    
+}
+
+.iconSearch{
+        background-color: transparent;
+        background-size: 24px;
+        padding: 0 0 0 24px;
+        background-image: url(/public/icons/icon-search.svg);
+}
+
+.topHeaderSearch {
+    width: auto;
+    flex: 1;
+    align-self: center;
+    padding: 29px 0px 23px;
+    height: 80px;
+  }
+
+  .input {
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.iconSearch {
+    background: url(/static/icon-search.svg);
+    background-color: transparent;
+      background-size: 24px;
+      padding: 0 0 0 24px;
+}
+
+.icon {
+    display: inline;
+    background-repeat: no-repeat;
+}
+
+
+.formControl {
+    color: black;
+}
+
+.textBody2 {
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    font-family: "Roboto", sans-serif;
+}
+
+.formControl {
+    display: block;
+    width: 100%;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.justifyContentEnd {
+    justify-content: flex-end !important;
+}
+
+.topHeader .item.active {
+    border-bottom: 4px solid #000000;
+}
+
+.textBody3 {
+    font-weight: normal;
+    font-size: 0.889rem;
+    line-height: 16px;
+}
+
+.topHeader .item {
+    cursor: pointer;
+    max-width: 140px;
+    width: 140px;
+    height: 80px;
+    line-height: 16px;
+    color: #000000;
+    text-align: center;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.topHeader .avatar {
+    cursor: pointer;
+    background-color: #999999;
+    height: 48px;
+    width: 48px;
+    border: 0.5px solid #cccccc;
+    text-align: center;
+    line-height: 48px;
+    color: #ffffff;
+    position: relative;
+}
+
+.bgImg {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.roundedCircle {
+    border-radius: 50% !important;
+}
+
+.textBody1 {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 20px;
+}
+
+.topHeader .item a, .topHeader .item a:hover {
+    color: #000000;
+}
+
